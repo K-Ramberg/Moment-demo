@@ -1,5 +1,18 @@
 .box {
-    height: 200px;
+    height: 400px;
     width: 400px;
     background-color: gray
+}
+
+p {
+    font-weight: 800;
+}
+
+div {
+    background: yellow;
+    width: 50%;
+}
+
+input {
+ margin: 10px;
 }

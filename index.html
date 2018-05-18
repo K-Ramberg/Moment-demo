@@ -9,16 +9,24 @@
 </head>
 <body>
     <div class="box">
-        <h3>Order time</h3>
-        <p>Order time goes here</p>
-       
-        <p id="now"></p>
+        <h3>Order Time Here</h3>
+        <div id="now"></div>
+
+        <h3>Easily altered to Day/Month/Year</h3>
+        <div id="nowParseable"></div>
     </div>
 
     <div class="box">
-        <h3>Delivery Time</h3>
+        <h3>Delivery Time to Timbuktu <!--its local time is UTC --></h3>
         <p>Delivery time goes here</p>
+
+        <p>The Time it is There:</p>
+        <div id="then"></div>
+        <!-- vs the built in HTML version of time entry -->
         <input type="datetime-local"  id="deliveryInput">
+
+        <p>the time there in 5 days</p>
+        <div id="deliverFuture"></div>
     </div>
 
 
