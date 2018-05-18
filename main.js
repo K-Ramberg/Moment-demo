@@ -1,14 +1,13 @@
 $(() => {
+    let now = moment()
     let thenTime = moment().utc()
-    let nowP = moment.utc()
     let deliverTime = moment().add(5, 'day')
-    let funTime = moment().utcOffset(80)
+    let timeAlt = moment().utcOffset(-8000)
 
 $("#now").text(moment().format('MMMM Do YYYY, h:mm:ss a'))
 $("#then").text(thenTime.format('MMMM Do YYYY, h:mm:ss a'))
 $('#deliverFuture').text(deliverTime.format('MMMM Do YYYY, h:mm:ss a'))
-$('#nowParseable').text(nowP.format('DD/MM/YYYY, h:mm:ss'))
+$('#nowParseable').text(moment().format('DD/MM/YYYY, h:mm:ss'))
+$('#alt').text(timeAlt.format('MMMM Do YYYY, h:mm:ss a'))
 
-
-
-});
+})

@@ -1,6 +1,11 @@
-.box {
-    height: 400px;
-    width: 400px;
+.box1 {
+    height: 200px;
+    width: 600px;
+    background-color: gray
+}
+.box2 {
+    height: 720px;
+    width: 600px;
     background-color: gray
 }
 
